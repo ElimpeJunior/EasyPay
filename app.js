@@ -12,7 +12,7 @@ localStorage.setItem("amount", amount);
 
 var ussd = `*126*9*${receiver}*${amount}%23`;
 
-window.location.href(`tel:${ussd}`);
+window.open(`tel:${ussd}`);
 }
 
 function initialize() {
