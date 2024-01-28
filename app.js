@@ -19,7 +19,7 @@ function call() {
     return;
   }
 
-  window.location.href = `tel:${ussd}`;
+  window.open(`tel:${ussd}`, "_self");
 }
 
 function initialize() {
