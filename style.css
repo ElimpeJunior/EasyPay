@@ -19,18 +19,6 @@ body {
   position: relative;
 }
 
-.home-section .home-content {
-  font-size: 20px;
-  font-weight: 500;
-  color: #ffffff;
-  background: #11101d;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  padding-left: 50px;
-  text-align: center;
-}
-
 .home-section .dialer-form {
   width: 100%;
 }
